@@ -1,5 +1,4 @@
 #!/usr/binenv python3
-(...)
 def check_disk_full(disk, min_gb, min_percent):
     """Returns True if there isn't enough disk space, False otherwise."""
     du = shutil.disk_usage(disk)
@@ -15,7 +14,7 @@ def main():
     if check_reboot():
         print("Pending Reboot.")
         sys_exit(1)
-    if check_disk_full(disk="/", min_gb=2, min_percent=10):
+    if check_disk_full(disk="/", min_gb=3, min_percent=10):
         print("Disk full.")
         sys.exit(1)
     
