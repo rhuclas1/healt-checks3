@@ -12,3 +12,5 @@ or the corresponding error messages if some checks fail.
 
 This script will print "Everything OK" if all check pass, 
 or the corresponding error messages if some checks fail.
+
+This the other fix, Issues #2
